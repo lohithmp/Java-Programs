@@ -1,6 +1,7 @@
 package Program_7;
 import java.util.Scanner;
 
+//Custom Exception 
 public class Atm 
 {
 	int atm_pin=4512;
