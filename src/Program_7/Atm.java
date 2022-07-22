@@ -1,6 +1,6 @@
 package Program_7;
 import java.util.Scanner;
-
+//Class Atm is super class to IncorrectPinException class
 public class Atm 
 {
 	int atm_pin=4512;
@@ -34,6 +34,7 @@ public class Atm
 		finally
 		{
 			System.out.println("Thank You");
-		}		
+		}	
+		sc.close();
 	}
 }

@@ -10,9 +10,10 @@ public class Car_inherits extends Uber_Inheritance
 		super("Sift Dzire"); //Calling Parent Constructor
 	}
 	//Method Overriding
-	public void Drive()
+	@Override
+	public void Ride()
 	{
-		super.Ride();   // Calling parent method
+	 // Calling parent method
 		System.out.println("2."+ mini+" is ready to pick");
 		super.Ride_in_bike("Bajaj chethak");
 		super.Ride_in_Auto("Auto", 2);
@@ -36,7 +37,7 @@ public class Car_inherits extends Uber_Inheritance
 		System.out.println("UBER is offering you to book vehicle");
 		System.out.println();
 		Scanner sc =new Scanner(System.in);
-		car.Drive();
+		car.Ride();
 		System.out.println();
 		System.out.println("Which one do you want?? ");
 		int pick_One =sc.nextInt();
@@ -67,7 +68,7 @@ public class Car_inherits extends Uber_Inheritance
 }
 
 
-/*
+/*OUTPUT:
  * UBER is offering you to book vehicle
 
 1.Tata Nexon is ready to pick

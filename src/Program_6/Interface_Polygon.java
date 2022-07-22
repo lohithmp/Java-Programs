@@ -4,8 +4,11 @@ package Program_6;
  interface Interface_Polygon 
 {
 	 void getArea_result();
+	 public static void main(String[] args) 
+	 {
+		
+	}
 }
-
  //Rectangle class implements interface 
  class Rectangle implements Interface_Polygon
  {
