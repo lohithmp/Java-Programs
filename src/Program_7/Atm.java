@@ -1,6 +1,11 @@
 package Program_7;
 import java.util.Scanner;
+<<<<<<< HEAD
 //Class Atm is super class to IncorrectPinException class
+=======
+
+//Custom Exception 
+>>>>>>> bf98a82cc51bce26c8a323af8fa5e9e382a889d9
 public class Atm 
 {
 	int atm_pin=4512;
